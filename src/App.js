@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 const variable = true;
+const name = 'Mary';
 
 
 class App extends Component {
@@ -14,10 +15,32 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <p style = {{
-            font-style: 'italic'
+          <p style={{
+            fontStyle: 'italic'
           }}>
             Hello World!</p>
+            <p>
+              {name}
+            </p>
+            <p>
+              {15339}
+            </p>
+            <p>
+              {18*2}
+            </p>
+            <p>
+              {variable && 'Variable is true'}
+            </p>
+            <p>
+              {undefined}
+              {null}
+              {false}
+              {true}
+            </p>
+            <p>
+              {variable ? 'Everything is OK' : 'Variable is false'}
+            </p>
+
           <a
             className="App-link"
             href="https://reactjs.org"
