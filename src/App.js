@@ -32,11 +32,17 @@ class App extends Component {
               {variable && 'Variable is true'}
             </p>
             <p>
-              {undefined}
-              {null}
-              {false}
-              {true}
+              Undefined: пусто {undefined}
             </p>
+            <p>
+              Null: пусто {null}
+              </p>
+              <p>
+              False: пусто {false}
+              </p>
+              <p>
+                True: пусто {true}
+              </p>
             <p>
               {variable ? 'Everything is OK' : 'Variable is false'}
             </p>
