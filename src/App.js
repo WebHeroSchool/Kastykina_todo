@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { count, length } from './number.js';
+import { count, length } from './number';
 
 
 class App extends Component {
