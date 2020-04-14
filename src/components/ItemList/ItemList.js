@@ -1,11 +1,11 @@
 import React from 'react';
 import Item from '../Item/Item';
 
-const ItemList = () => (
+const ItemList = ({ props }) => (
     <ul>
-        <li><Item /></li>
-        <li><Item /></li>
-        <li><Item /></li>
+        <li><Item props= { props[0] } /></li>
+        <li><Item props= { props[1] } /></li>
+        <li><Item props= { props[2] }/></li>
     </ul>
 );
 
