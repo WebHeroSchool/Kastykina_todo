@@ -2,17 +2,28 @@ import React from 'react';
 import InputItem  from '../InputItem/InputItem';
 import ItemList from '../ItemList/ItemList';
 import Footer from '../Footer/Footer';
+  
 
-const props = ['One', 'Two', 'Three'];
-   
+const App = () => {
+    const items = [
+        {
+           value: 'Learn React'
+        },
+        {
+            value: 'Read a book' 
+        },
+        {
+            value: 'Watch a movie' 
+        },
+    ];
 
-const App = () => (
-    <div>
+    return (
+        <div>
         <h1>todos</h1>
         <InputItem />
-        <ItemList props = { props } />
+        <ItemList items = { items } />
         <Footer count = {3} />
-    </div>
-);
+    </div>);
+}
 
 export default App;
