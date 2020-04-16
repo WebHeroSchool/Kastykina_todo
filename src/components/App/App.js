@@ -8,13 +8,16 @@ import './App.css';
 const App = () => {
     const items = [
         {
-           value: 'Learn React'
+           value: 'Learn React',
+           isDone: false
         },
         {
-            value: 'Read a book' 
+            value: 'Read a book',
+            isDone: false
         },
         {
-            value: 'Watch a movie' 
+            value: 'Watch a movie',
+            isDone: true
         },
     ];
 
