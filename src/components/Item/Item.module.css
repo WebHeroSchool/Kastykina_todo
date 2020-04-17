@@ -36,5 +36,4 @@
 
 .item:hover button:not(.checkbox) {
     opacity: 1;
-    
 }

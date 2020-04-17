@@ -24,4 +24,14 @@ const Item = ({ value, isDone }) => (<div className ={styles.item
 
 </div>);
 
+const Item = ({ value, isDone }) => (<span className ={
+    classnames({
+        [styles.item]: true,
+        [styles.done]: isDone,
+        })
+}>
+    { value }
+</span>);
+
+
 export default Item;
