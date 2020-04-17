@@ -3,18 +3,22 @@ import InputItem  from '../InputItem/InputItem';
 import ItemList from '../ItemList/ItemList';
 import Footer from '../Footer/Footer';
 import styles from'./App.module.css';
+
   
 
 const App = () => {
     const items = [
         {
-           value: 'Learn React'
+           value: 'Learn React',
+           isDone: false
         },
         {
-            value: 'Read a book' 
+            value: 'Read a book',
+            isDone: false
         },
         {
-            value: 'Watch a movie' 
+            value: 'Watch a movie',
+            isDone: true
         },
     ];
 
